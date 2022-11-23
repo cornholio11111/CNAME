@@ -16,7 +16,7 @@ import Settings from './pages/settings'
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
       {/* <div className="App">
         <Nav />
       </div> */}
@@ -41,7 +41,7 @@ function App() {
         <Route path="" element={< Four0Four />} />
         <Route element={< Four0Four />} />
       </Routes>
-    </HashRouter>
+    </Router>
   );
 }
 
