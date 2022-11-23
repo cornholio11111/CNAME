@@ -7,7 +7,6 @@ import { auth } from "../components/firebase/firebase-config";
 function LoginFunction() {
   const [LoginEmail, setLoginEmail] = useState("");
   const [LoginPassword, setLoginPassword] = useState("");
-  const [user, setUser] = useState({});
 
   const login = async () => {
     try {
@@ -42,7 +41,7 @@ function LoginFunction() {
       <div className="LoginBox">
 
         <h2 className="Email_Text">Email</h2>
-        <input name="emailBox" className="EmailBar" type="text" placeholder="Enter Email Here..." maxLength="200"
+        <input name="emailBox" className="InputBar" type="text" placeholder="Enter Email Here..." maxLength="200"
 
           onChange={(event) => {
             setLoginEmail(event.target.value)
@@ -50,7 +49,7 @@ function LoginFunction() {
         />
 
         <h2 className="Email_Text">Password</h2>
-        <input className="EmailBar" type="password" placeholder="Password Here..." maxLength="500"
+        <input className="InputBar" type="password" placeholder="Password Here..." maxLength="500"
           onChange={(event) => {
             setLoginPassword(event.target.value)
           }} />
