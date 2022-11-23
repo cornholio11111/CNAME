@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "https://arthblox.ga/static/css/main.1cb07b5e.css",
-    "main.js": "https://arthblox.ga/static/js/main.1e27e254.js",
+    "main.js": "https://arthblox.ga/static/js/main.b0d7c156.js",
     "static/js/787.7c70f202.chunk.js": "https://arthblox.ga/static/js/787.7c70f202.chunk.js",
     "static/media/404Error.png": "https://arthblox.ga/static/media/404Error.6aa6434ab39ae91da854.png",
     "static/media/TestImageA.png": "https://arthblox.ga/static/media/TestImageA.ef264e225131797c5166.png",
     "index.html": "https://arthblox.ga/index.html",
     "main.1cb07b5e.css.map": "https://arthblox.ga/static/css/main.1cb07b5e.css.map",
-    "main.1e27e254.js.map": "https://arthblox.ga/static/js/main.1e27e254.js.map",
+    "main.b0d7c156.js.map": "https://arthblox.ga/static/js/main.b0d7c156.js.map",
     "787.7c70f202.chunk.js.map": "https://arthblox.ga/static/js/787.7c70f202.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1cb07b5e.css",
-    "static/js/main.1e27e254.js"
+    "static/js/main.b0d7c156.js"
   ]
 }
